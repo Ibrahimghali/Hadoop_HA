@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<configuration>
+<property>
+      <name>yarn.resourcemanager.hostname</name>
+      <value>NameNode</value>
+   </property>
+   <property>
+       <name>yarn.nodemanager.local-dirs</name>
+       <value>file:/home/vm1/hadoop_data/yarn/local</value>
+   </property>
+   <property>
+       <name>yarn.nodemanager.log-dirs</name>
+       <value>file:/home/vm1/hadoop_data/yarn/log</value>
+   </property>
+<property>
+<name>yarn.log.server.url</name>
+         <value>http://NameNode:19888/jobhistory/logs</value>
+</property>
+<property>
+<name>yarn.nodemanager.aux-services</name>
+<value>mapreduce_shuffle</value>
+</property>
+<property>
+<name>yarn.nodemanager.aux-services.mapreduce_shuffle.class</name>
+<value>org.apache.hadoop.mapred.ShuffleHandler</value>
+</property>
+<property>
+  <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
+  <value>100</value>
+</property>
+ </configuration>
