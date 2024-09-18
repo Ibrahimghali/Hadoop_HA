@@ -1,3 +1,5 @@
+---
+
 # Hadoop Cluster with High Availability
 
 ### Authors: Ibrahim Ghali & Hamza Zarai
@@ -77,6 +79,14 @@ To enable HA in Hadoop, several configuration files were updated:
 ## Repository Branches
 
 This GitHub repository contains **7 branches**, each representing different stages and features of the Hadoop HA setup. You can explore these branches to understand different configurations and aspects of the cluster.
+
+---
+
+## Failover Demonstration
+
+To see how the failover process works when the Active NameNode goes down and the Standby NameNode takes over, check out the following video:
+
+[**Failover Demonstration Video**](https://drive.google.com/file/d/166CURCp4AW2eKYtbxfYLIli0gA9e_w8r/view)
 
 ---
 
